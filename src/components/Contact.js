@@ -39,7 +39,7 @@ function Contact() {
     event.preventDefault();
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email) || !name || !message) {
+    if (!validateEmail(email)) {
       setErrorMessage('Valid email is required!');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
@@ -55,6 +55,7 @@ function Contact() {
     setName('');
     setEmail('');
     setMessage('');
+    setErrorMessage('');
   };
 
   return (
