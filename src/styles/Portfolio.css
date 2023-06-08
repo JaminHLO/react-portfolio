@@ -1,0 +1,46 @@
+
+/* Sets the appearance for the sub headimgs for the project items */
+h3, h4 {
+  font-size: 18px;
+  color: white;
+  text-align:center;
+  text-shadow: 1px 1px 1px grey;
+}
+
+/* Class defines the flow of my project class items */
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+/* Class defines the appearance of the project items */
+.project {
+  flex-direction: column; 
+  width: 30vw;
+  border: 2px solid transparent;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 10px 15px gray;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Stablizes image size to link frame */
+.project a img {
+  display: flex;
+  width:100%;
+}
+
+/* Adds an effect when a user hovers over a project class item*/
+.project:hover {
+  transform: scale(1.02);
+  transform: rotate(0.5deg);
+  box-shadow: inset 0px 0px 8px white, 0 0 15px white;
+}
+
+/* Featured class increases the size of the project display */
+.featured { 
+  width: 60vw;
+}

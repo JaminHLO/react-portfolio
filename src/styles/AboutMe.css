@@ -1,0 +1,30 @@
+
+/* Class defines the flow of the about me section elements */
+.aboutMe {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+/* Appearance of sub headings for site categories */
+h2 {
+  font-size: 25px;
+  margin-left: 2vw; 
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px grey;
+}
+
+/* Sets the appearance for the 'about me' destription text */
+.aboutMe p {
+  padding: 2vw;
+  
+}
+
+/* Sets a responable size of my portrait image */
+.aboutMe img {
+  width: 30vw;
+  object-fit: contain;
+  max-height: 300px;
+  float:right;
+}

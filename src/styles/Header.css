@@ -1,0 +1,29 @@
+/* Appearance and flow of header  */
+header {
+  display: flex;
+  flex-direction: column; 
+  background: black;
+  justify-content: space-between;
+  padding-inline-start: 16px;
+}
+
+/* Appearance and font of top level heading */
+h1 {
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  text-shadow: 1px 1px 1px grey;
+}
+.navbar {
+  height: 60px;
+}
+
+.navbar button {
+  color: white;
+  background: black;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 5px;
+  line-height: 3;
+}

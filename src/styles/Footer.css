@@ -1,0 +1,7 @@
+/* Appearance and flow of footer */
+footer {
+  display: flex;
+  background: black;
+  justify-content: space-between;
+  padding-inline-start: 16px;
+}
