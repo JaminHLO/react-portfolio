@@ -17,8 +17,6 @@ function Section() {
     setSection(inputId);
   }
 
-  // const ;
-
   return (
     <div className="header container">
       <Header 
