@@ -3,6 +3,8 @@ import Header from "./Header";
 import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
+import Resume from "./Resume";
+
 import '../styles/style.css';
 
 
@@ -18,11 +20,12 @@ function Section() {
   }
 
   return (
-    <div className="header container">
+    <div className="container p-1">
       <Header 
         section={section}
         handleNavSelection={handleNavSelection}
       />
+      <div className="container p-4">
       {
         (section==='aboutMe') ?
         (<AboutMe />) :
@@ -30,8 +33,9 @@ function Section() {
         (<Portfolio />) :
         (section==='contact') ?
         (<Contact />) :
-        ('/')
+        (<Resume />)
       }
+      </div>
     </div>
   );
 }

@@ -13,7 +13,7 @@ function Footer() {
     // <!-- This is the Contact Me section with links to phone, email, and my repo -->
     <footer>
       <div className="container">
-        <nav className="navbar ">
+        <nav className="navbar align-items-center">
             <a className="nav-brand" href="https://www.linkedin.com/in/jamin-hogan-esq-psd-45257211/">
               <img src='./images/linkedIn_PNG15.png' 
               alt='LinkedIn' style={styles.logos}/>

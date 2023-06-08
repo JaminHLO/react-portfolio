@@ -2,7 +2,7 @@
 /* Global default text color and font  */
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     background-color: black;
     /* background: linear-gradient(331deg, rgb(88, 88, 88) 0%, rgb(1, 1, 1) 45%, rgb(48, 47, 47) 100%);
@@ -22,12 +22,12 @@
 } */
 
 /* Appearance and flow of nav bar */
-/* nav {
+nav {
     display: flex;
     background: black;
     justify-content: flex-end;
     align-items: center;
-} */
+}
 
 /* Text appearance for navigation bar links */
 nav a {
@@ -64,33 +64,37 @@ section a {
 }
 
 
+
 /* Media section that helps displays on smaller resolutions and devices */
 @media all and (max-width: 768px) {
     header, footer, main, section, article, nav, p {
         justify-content: center;
         margin: 0; 
         padding: 0; 
-        font-size:14px;
+        font-size:16px;
     }
     /* reduces size of headings */
     h1 {
         font-size: 20px;
+        justify-content: center;
+
     }
     h2, h3, h4, a {
-        font-size:18px;
+        font-size:16px;
     }
 }
 
 /* Media section that helps displays on even smaller resolutions and devices */
-@media all and (max-width: 425px) {
-    header, footer, main, section, article, nav, p {
-        font-size:12px;
-    }
+/* @media all and (max-width: 425px) {
+    header, footer, main, section, article, nav, p, a {
+        justify-content: center;
+        font-size:10px;
+    } */
     /* reduces size of headings even further */
-    h1 {
+    /* h1 {
         font-size: 16px;
     }
-    h2, h3, h4, a {
+    h2, h3, h4 {
         font-size:14px;
     }
-}
+} */

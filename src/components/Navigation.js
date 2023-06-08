@@ -11,53 +11,55 @@ const styles = {
 
 function Navigation( { section, handleNavSelection } ) {
   return (
-      <div className="flex-row">
-        <nav className="navbar navbar-dark bh-dark align-end">
-
-          {(section==='aboutMe') ?
-            (<button id="aboutMe"
-            onClick={handleNavSelection} 
-            style={styles.navbarHighlight}
-            >About Me</button>) :
-            (<button id="aboutMe"
-            onClick={handleNavSelection} 
-            style={styles.navbarDefault}
-            >About Me</button>)
-          }
-
-          {(section==='portfolio') ?
-            (<button id="portfolio"
-            onClick={handleNavSelection} 
-            style={styles.navbarHighlight}
-            >Portfolio</button>) :
-            (<button id="portfolio"
-            onClick={handleNavSelection} 
-            style={styles.navbarDefault}
-            >Portfolio</button>)
-          }
-
-          {(section==='contact') ?
-            (<button id="contact"
-            onClick={handleNavSelection} 
-            style={styles.navbarHighlight}
-            >Contact</button>) :
-            (<button id="contact"
-            onClick={handleNavSelection} 
-            style={styles.navbarDefault}
-            >Contact</button>)
-          }
-
-          {(section==='resume') ?
-            (<button id="resume"
-            onClick={handleNavSelection} 
-            style={styles.navbarHighlight}
-            >Resume</button>) :
-            (<button id="resume"
-            onClick={handleNavSelection} 
-            style={styles.navbarDefault}
-            >Resume</button>)
-          }
-
+      <div className="col-12">
+        <nav className="site-navigation position-relative text-right"
+        role="navigation">
+          {/* <ul className="list-group-horizontal "> */}
+            {/* <li> */}
+            {(section==='aboutMe') ?
+              (<button id="aboutMe" 
+              onClick={handleNavSelection} 
+              style={styles.navbarHighlight}
+              >About Me</button>) :
+              (<button id="aboutMe" 
+              onClick={handleNavSelection} 
+              style={styles.navbarDefault}
+              >About Me</button>)}
+            {/* </li> */}
+            {/* <li> */}
+            {(section==='portfolio') ?
+              (<button id="portfolio" 
+              onClick={handleNavSelection} 
+              style={styles.navbarHighlight}
+              >Portfolio</button>) :
+              (<button id="portfolio" 
+              onClick={handleNavSelection} 
+              style={styles.navbarDefault}
+              >Portfolio</button>)}
+            {/* </li> */}
+            {/* <li> */}
+            {(section==='contact') ?
+              (<button id="contact" 
+              onClick={handleNavSelection} 
+              style={styles.navbarHighlight}
+              >Contact</button>) :
+              (<button id="contact" 
+              onClick={handleNavSelection} 
+              style={styles.navbarDefault}
+              >Contact</button>)}
+            {/* </li> */}
+            {/* <li> */}
+            {(section==='resume') ?
+              (<button id="resume" 
+              onClick={handleNavSelection} 
+              style={styles.navbarHighlight}
+              >Resume</button>) :
+              (<button id="resume" 
+              onClick={handleNavSelection} 
+              style={styles.navbarDefault}
+              >Resume</button>)}
+            {/* </li> */}
+          {/* </ul> */}
         </nav>
       </div>
   );

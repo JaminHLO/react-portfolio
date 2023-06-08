@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-
-
 import { validateEmail } from '../utils/helpers';
+
 
 const styles = {
   label: {
     width: "100px"
+  },
+  textarea: {
+    width: "100%" 
   }
 }
 
@@ -59,39 +61,51 @@ function Contact() {
   };
 
   return (
-  <div className="container">
+  <div>
     <h2 id="contact">Contact</h2>
-    <form className="form container column">
-        <div className="form-group container">
-          <label style={styles.label}>Name </label>
-          <input
-            value={name}
-            name="name"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="name"
-          />
+    <form className="contact-form col-lg-8 p-4">
+        <div className="row">
+          <div className="col-md-12 mb-md-0 mb-5">
+            <div className="row">
+              <div className="col-md-6">
+                <label style={styles.label}>Name </label>
+                <input
+                  className="form-control"
+                  value={name}
+                  name="name"
+                  onChange={handleInputChange}
+                  type="text"
+                  placeholder="name"
+                />
+              </div>
+            
+              <div className="col-md-6">
+                <label style={styles.label}>Email </label>
+                <input
+                  className="form-control"
+                  value={email}
+                  name="email"
+                  onChange={handleInputChange}
+                  type="email"
+                  placeholder="email"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="form-group container">
-          <label style={styles.label}>Email </label>
-          <input
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="email"
-            placeholder="email"
-          />
-        </div>
-        <div className="form-group container">
-          <label style={styles.label}>Message </label>
-          <textarea
-            value={message}
-            name="message"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="message"
-            rows="3"
-          />
+        <div className="row">
+          <div className="col-md-12">
+            <label style={styles.label}>Message </label>
+            <textarea
+              className="form-control md-textarea"
+              value={message}
+              name="message"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="message"
+              rows="3"
+            />
+          </div>
         </div>
         <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>

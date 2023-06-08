@@ -35,8 +35,8 @@ h3, h4 {
 
 /* Adds an effect when a user hovers over a project class item*/
 .project:hover {
-  transform: scale(1.02);
-  transform: rotate(0.5deg);
+  transform: scale(1.01);
+  /* transform: rotate(0.5deg); */
   box-shadow: inset 0px 0px 8px white, 0 0 15px white;
 }
 
