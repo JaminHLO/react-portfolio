@@ -18,9 +18,9 @@ Server is initialized from command line with:
 >npm start
 
 Screenshots of the program in use:
-![portfolio initial screen](public/images/rp-ss-01.png)<br> 
-![portfolio of projects](public/images/rp-ss-02.png) <br>
-![list of skills and resume](public/images/rp-ss-03.png)
+![portfolio initial screen](public/images/rp-ss-01.jpg)<br> 
+![portfolio of projects](public/images/rp-ss-02.jpg) <br>
+![list of skills and resume](public/images/rp-ss-03.jpg)
 
 ## License
 
