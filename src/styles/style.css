@@ -63,7 +63,10 @@ section a {
     text-decoration: none;
 }
 
-
+.resume:hover {
+    transform: scale(1.01);
+    box-shadow: inset 0px 0px 8px white, 0 0 15px white;
+  }
 
 /* Media section that helps displays on smaller resolutions and devices */
 @media all and (max-width: 768px) {

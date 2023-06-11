@@ -9,13 +9,13 @@ const styles = {
   }
 };
 
+// navigation bar for top of all screens with current page highlighted
 function Navigation( { section, handleNavSelection } ) {
   return (
       <div className="col-12">
         <nav className="site-navigation position-relative text-right"
         role="navigation">
-          {/* <ul className="list-group-horizontal "> */}
-            {/* <li> */}
+
             {(section==='aboutMe') ?
               (<button id="aboutMe" 
               onClick={handleNavSelection} 
@@ -25,8 +25,7 @@ function Navigation( { section, handleNavSelection } ) {
               onClick={handleNavSelection} 
               style={styles.navbarDefault}
               >About Me</button>)}
-            {/* </li> */}
-            {/* <li> */}
+
             {(section==='portfolio') ?
               (<button id="portfolio" 
               onClick={handleNavSelection} 
@@ -36,8 +35,7 @@ function Navigation( { section, handleNavSelection } ) {
               onClick={handleNavSelection} 
               style={styles.navbarDefault}
               >Portfolio</button>)}
-            {/* </li> */}
-            {/* <li> */}
+
             {(section==='contact') ?
               (<button id="contact" 
               onClick={handleNavSelection} 
@@ -47,8 +45,7 @@ function Navigation( { section, handleNavSelection } ) {
               onClick={handleNavSelection} 
               style={styles.navbarDefault}
               >Contact</button>)}
-            {/* </li> */}
-            {/* <li> */}
+
             {(section==='resume') ?
               (<button id="resume" 
               onClick={handleNavSelection} 
@@ -58,8 +55,7 @@ function Navigation( { section, handleNavSelection } ) {
               onClick={handleNavSelection} 
               style={styles.navbarDefault}
               >Resume</button>)}
-            {/* </li> */}
-          {/* </ul> */}
+
         </nav>
       </div>
   );

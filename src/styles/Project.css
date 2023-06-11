@@ -18,13 +18,14 @@ h3, h4 {
 /* Class defines the appearance of the project items */
 .project {
   flex-direction: column; 
-  width: 30vw;
+  width: 25vw;
   border: 2px solid transparent;
   margin: 20px;
   border-radius: 10px;
   box-shadow: 3px 10px 15px gray;
   cursor: pointer;
   transition: all 0.2s ease;
+  min-width: 300px;
 }
 
 /* Stablizes image size to link frame */
@@ -42,5 +43,7 @@ h3, h4 {
 
 /* Featured class increases the size of the project display */
 .featured { 
-  width: 60vw;
+  width: 50vw;
+  min-width: 350px;
+
 }

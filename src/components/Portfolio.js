@@ -1,12 +1,13 @@
 import React from 'react';
 import Project from './Project';
 
+
+// function to return list of portfolio projects
 function Portfolio() {
   return (
   <div>
     <h2 id="portfolio">My Portfolio</h2>
     <section>
-        {/* <!-- This is the flexible list of projects --> */}
       <section className="project-list">
             <Project 
                 isFeatured={true} 

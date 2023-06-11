@@ -8,6 +8,7 @@ const styles = {
     }
   }
 
+  // function for individual projects in my portfolio
 function Project({isFeatured, deployedProj, titleProj, repoProj, ssProj, altProj}) {
   return (
   <div>

@@ -1,16 +1,15 @@
 import React from 'react';
-// import Navbar from "./Navbar";
-// import '../styles/Footer.css';
 
+// style for footer logo icons
 const styles = {
   logos: {
     maxHeight: "40px"
   }
 }
 
+// contact me section with logo links to linked in, github, and loom
 function Footer() {
   return (
-    // <!-- This is the Contact Me section with links to phone, email, and my repo -->
     <footer>
       <div className="container">
         <nav className="navbar align-items-center">

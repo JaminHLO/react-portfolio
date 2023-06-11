@@ -7,15 +7,16 @@ import Resume from "./Resume";
 
 import '../styles/style.css';
 
-
+// start point for website structure
 function Section() {
 
   const [section, setSection] = useState('aboutMe');
 
+  // event handler for the nav bar at top of all pages
   const handleNavSelection = (event) => {
     const {target} = event; 
     const inputId = target.id;
-    console.log(`nav bar item: ${inputId}`);
+    // console.log(`nav bar item: ${inputId}`);
     setSection(inputId);
   }
 
