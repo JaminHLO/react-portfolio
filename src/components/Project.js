@@ -17,7 +17,7 @@ function Project({isFeatured, deployedProj, titleProj, repoProj, ssProj, altProj
               <a href={deployedProj} target="_blank" rel="noreferrer">
                   <h3>{titleProj}</h3>
                   <object><a href={repoProj}>
-                    <img src='./images/gitHub-mark-white.png' 
+                    <img src='./images/gitHub_mark_white.png' 
                     alt='GitHub Repository' style={styles.logos}/>
                     </a></object>
                   <img src={ssProj} 
