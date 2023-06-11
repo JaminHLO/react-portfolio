@@ -34,7 +34,7 @@ Instruction was provided by Instructor Saurav with assistance from TAs Andreas #
 
 ## Tests
 
-The Project may tested using the installation instructions above and running 'npm start' and then opening <http://localhost:3000> in any browser. The live site is available at: <https://calm-headland-52008.herokuapp.com/>.
+The Project may tested using the installation instructions above and running 'npm start' and then opening <http://localhost:3000> in any browser. The live site is available at: <https://jaminhlo.github.io/react-portfolio/>.
 
 ## Questions
 
