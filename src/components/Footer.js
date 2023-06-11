@@ -23,7 +23,7 @@ function Footer() {
             </a>
             <a className="nav-brand" href="https://github.com/JaminHLO/" 
             target="_blank" rel="noreferrer">
-              <img src='./images/gitHub_mark_white.png' 
+              <img src='./images/github_mark_white.png' 
               alt='GitHub' style={styles.logos}/>
             </a>
         </nav>
