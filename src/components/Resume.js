@@ -19,7 +19,7 @@ function Resume() {
               className="resume" />
             </a>
         </div>
-        <div className="col-md-12 col-lg-6 ">
+        <div className="pt-3 col-md-12 col-lg-6 ">
             <ul>
                 <label>Front-end Proficiencies:</label>
                 <li>HTML</li>

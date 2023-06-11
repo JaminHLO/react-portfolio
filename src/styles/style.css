@@ -14,17 +14,16 @@
 /* body {
     display: flex;
     flex-direction: column;
-    background: black;
+    background: black; 
     background-position: center;
     background: linear-gradient(331deg, rgb(88, 88, 88) 0%, rgb(1, 1, 1) 45%, rgb(48, 47, 47) 100%);
     background-repeat: no-repeat;
-  
 } */
 
 /* Appearance and flow of nav bar */
 nav {
     display: flex;
-    background: black;
+    /* background: black; */
     justify-content: flex-end;
     align-items: center;
 }
@@ -49,6 +48,11 @@ nav a:hover {
     background-repeat: no-repeat;
     flex-direction: column;
 } */
+
+.jaminBack {
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(11, 11, 11) 45%, rgb(33, 33, 33) 100%);
+    background-repeat: no-repeat;
+}
 
 /* A standard setting for section attribute spacing */
 section {

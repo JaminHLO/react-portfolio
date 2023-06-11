@@ -9,10 +9,10 @@ function Header( { section, handleNavSelection } ) {
         role="banner">
         <div className="container">
           <div className="row ">
-            <div className="col-md-5 col-sm-12 text-center">
-              <h1 className="center-block">Jamin Hogan</h1>
+            <div className="jaminBack col-md-5 col-sm-12 text-center">
+              <h1 className="jaminBack center-block ">Jamin Hogan</h1>
             </div>
-            <div className="col-md-7 col-sm-12">
+            <div className="jaminBack col-md-7 col-sm-12">
               <Navigation section={section} handleNavSelection={handleNavSelection}/>
             </div>
           </div>

@@ -6,14 +6,18 @@ const styles = {
   },
   navbarDefault: {
     color: 'grey'
+  },
+  transparent: {
+    background: 'transparent'
   }
 };
 
 // navigation bar for top of all screens with current page highlighted
 function Navigation( { section, handleNavSelection } ) {
   return (
-      <div className="col-12">
+      <div className="col-12" style={styles.transparent}>
         <nav className="site-navigation position-relative text-right"
+        style={styles.transparent}
         role="navigation">
 
             {(section==='aboutMe') ?
