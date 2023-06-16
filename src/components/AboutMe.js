@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/AboutMe.css';
 
+
+
 // function to return react formatted about me section
 function AboutMe() {
   return (

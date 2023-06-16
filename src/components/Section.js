@@ -10,6 +10,12 @@ import '../styles/style.css';
 // start point for website structure
 function Section() {
 
+  // const styles = {
+  //   wrapperVH: {
+  //     height: "100vh"
+  //   }
+  // };
+
   const [section, setSection] = useState('aboutMe');
 
   // event handler for the nav bar at top of all pages
@@ -21,7 +27,7 @@ function Section() {
   }
 
   return (
-    <div className="container p-1">
+    <div className="container p-1 ">
       <Header 
         section={section}
         handleNavSelection={handleNavSelection}
