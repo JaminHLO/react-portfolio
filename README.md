@@ -14,13 +14,15 @@ The Set-Up CLI Commands from project root directory:
 
 ## Usage
 
-Server is initialized from command line with:
+The server is initialized from the command line with:
 >npm start
 
 Screenshots of the program in use:
 ![portfolio initial screen](public/images/rp-ss-01.jpg)<br> 
 ![portfolio of projects](public/images/rp-ss-02.jpg) <br>
 ![list of skills and resume](public/images/rp-ss-03.jpg)
+
+*To navigate the portfolio page, the GitHub Icon will take you to the repository while clicking anywhere else on the screenshot of the project will take you to the deployed project.
 
 ## License
 
@@ -34,7 +36,7 @@ Instruction was provided by Instructor Saurav with assistance from TAs Andreas #
 
 ## Tests
 
-The Project may tested using the installation instructions above and running 'npm start' and then opening <http://localhost:3000> in any browser. The live site is available at: <https://jaminhlo.github.io/react-portfolio/>.
+The Project may tested using the installation instructions above and running 'npm start' and then opening <http://localhost:3000/react-portfolio> in any browser. The live site is available at: <https://jaminhlo.github.io/react-portfolio/>.
 
 ## Questions
 
