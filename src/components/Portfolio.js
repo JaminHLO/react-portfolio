@@ -11,6 +11,15 @@ function Portfolio() {
       <section className="project-list">
             <Project 
                 isFeatured={true} 
+                deployedProj={"https://sports-connect-e11a3bbe276b.herokuapp.com/"}
+                titleProj={"Sports Connect - Club and Private Event Manager"}
+                repoProj={"https://github.com/JaminHLO/jaan-event-manager"}
+                ssProj={"./images/ss-ss-landing.jpg"}
+                altProj={"full-stack club and event management portal"}
+            />
+
+            <Project 
+                isFeatured={false} 
                 deployedProj={"https://home-hub-management.herokuapp.com/"}
                 titleProj={"HomeHub - Property Management Solution"}
                 repoProj={"https://github.com/Anabel-Espinoza/HomeHub"}
