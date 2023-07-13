@@ -14,7 +14,7 @@ function Portfolio() {
                 deployedProj={"https://sports-connect-e11a3bbe276b.herokuapp.com/"}
                 titleProj={"Sports Connect - Club and Private Event Manager"}
                 repoProj={"https://github.com/JaminHLO/jaan-event-manager"}
-                ssProj={"./images/ss-ss-landing.jpg"}
+                ssProj={"./images/ss-sc-landing.jpg"}
                 altProj={"full-stack club and event management portal"}
             />
 
