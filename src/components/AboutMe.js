@@ -16,7 +16,7 @@ function AboutMe() {
           I began a legal career spanning two decades. 
           It is time to return to my original passion!</p>
           <div className="aboutMe">
-            <img src="./images/JaminPNG.png" alt="Jamin Hogan" />
+            <img src="./react-portfolio/images/JaminPNG.png" alt="Jamin Hogan" />
           </div>
     </section>
   </div>

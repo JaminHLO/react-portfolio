@@ -12,19 +12,19 @@ const styles = {
 function Project({isFeatured, deployedProj, titleProj, repoProj, ssProj, altProj}) {
   return (
   <div>
-          <section className={(isFeatured) ?
-            ("project featured") : ("project")}>
-              <a href={deployedProj} target="_blank" rel="noreferrer">
-                  <h3>{titleProj}</h3>
-                  <object><a href={repoProj}>
-                    <img src='./images/github_mark_white.png' 
-                    alt='GitHub Repository' style={styles.logos}/>
-                    </a></object>
-                  <img src={ssProj} 
-                  alt={altProj} />
-              </a>
-          </section> 
-
+      <div className={(isFeatured) ?
+        ("project featured") : ("project")}>
+          <a href={deployedProj} target="_blank" rel="noreferrer">
+              <h3>{titleProj}</h3>
+              <div>
+                <a href={repoProj}>
+                  <img src='./react-portfolio/images/github_mark_white.png' 
+                  alt='GitHub Repository' style={styles.logos}/>
+                </a>
+              </div>
+              <img src={ssProj} alt={altProj} />
+          </a>
+      </div> 
   </div>
   );
 }

@@ -14,7 +14,7 @@ function Portfolio() {
                 deployedProj={"https://sports-connect-e11a3bbe276b.herokuapp.com/"}
                 titleProj={"Sports Connect - Club and Private Event Manager"}
                 repoProj={"https://github.com/JaminHLO/jaan-event-manager"}
-                ssProj={"./images/sc-ss-landing.jpg"}
+                ssProj={"./react-portfolio/images/sc-ss-landing.jpg"}
                 altProj={"full-stack club and event management portal"}
             />
 
@@ -23,7 +23,7 @@ function Portfolio() {
                 deployedProj={"https://home-hub-management.herokuapp.com/"}
                 titleProj={"HomeHub - Property Management Solution"}
                 repoProj={"https://github.com/Anabel-Espinoza/HomeHub"}
-                ssProj={"./images/hh-home-02.png"}
+                ssProj={"./react-portfolio/images/hh-home-02.png"}
                 altProj={"full-stack property management website solution for landlords and tenants"}
             />
 
@@ -32,7 +32,7 @@ function Portfolio() {
                 deployedProj={"https://jaminhlo.github.io/m2-rentals/"}
                 titleProj={"Marvelous Rentals"}
                 repoProj={"https://github.com/JaminHLO/m2-rentals"}
-                ssProj={"./images/marvel-rent-01.jpg"}
+                ssProj={"./react-portfolio/images/marvel-rent-01.jpg"}
                 altProj={"website lists of rental properties and furnitures stores around a map showing their locations"}
             />
 

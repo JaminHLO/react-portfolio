@@ -12,9 +12,9 @@ function Resume() {
     <h2 id="about">Resume</h2>
     <div className="row ">
         <div className="col-md-12 col-lg-6 text-center">
-            <a href="./Jamin Resume - CS.pdf" 
+            <a href="./react-portfolio/Jamin Resume - CS.pdf" 
             download="Jamin Hogan - Resume">
-              <img src="./images/jamin_resume.png" 
+              <img src="./react-portfolio/images/jamin_resume.png" 
               alt="Jamin's Resume" width={styles.width}
               className="resume" />
             </a>
